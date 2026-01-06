@@ -1,0 +1,96 @@
+/*
+
+Nix Barebones Theme
+
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+/* mobile layout */
+.the_grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap:1rem;
+}
+
+/* the div that holds everything under the navbar */
+.container{
+    width:90%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+/* the big bar at the top of every page*/
+.navbar{
+    width: 100%;
+    float: top;    
+    text-align: center;
+    padding: 1rem;
+    background-color: #E9ECEF;
+}
+
+.navbar a{
+    text-decoration: none;
+}
+
+/* the page background color */ 
+html{
+    background-color: #F8F9FA;
+}
+
+/* the main font */
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0px;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* all images */
+img {
+    border-style: none;
+    border-radius: 25px;
+}
+
+/* the featured image that shows up in the card for each post on the homepage */
+.attachment-post-thumbnail{
+  border-radius: 16px;
+  width:100%;
+  height: auto;
+}
+
+/* the tags that appear on the blog post paage*/
+.tag a{
+    background-color: white; 
+    width:fit-content;
+    padding:1%;
+    text-decoration: none;
+}
+
+/* the cards on the homepage that display posts*/
+.postcard{
+    text-align: center;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 24px;
+}
+
+.post-content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.footer{
+  width: 100%;
+  text-align: center;
+  float: bottom;
+}
+
+a{
+    color: #212529;
+}
